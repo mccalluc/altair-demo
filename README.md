@@ -1,1 +1,7 @@
 # altair-demo
+
+Jupyter is an alternative to installing dependencies locally:
+
+```
+$ docker run -it --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/base-notebook start.sh jupyter lab
+```
